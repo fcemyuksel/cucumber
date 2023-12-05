@@ -1,9 +1,8 @@
 
 
-Feature: US1001 TestOtomasyunu Arama Testi
+Feature: US1001 Testotomasyonu Arama Testi
 
-
-  @smoke
+  @wip
   Scenario: TC01 Kullanici testotomasyonu sayfasinda arama yapabilmeli
 
     Given kullanici testotomasyonu anasayfaya gider
@@ -11,15 +10,15 @@ Feature: US1001 TestOtomasyunu Arama Testi
     Then arama sonucunda urun bulunabildigini test eder
     And sayfayi kapatir
 
-  @smoke
-    Scenario: TC02 Kullanici testotomasyonu sayfasinda arama yapabilmeli
-      Given kullanici testotomasyonu anasayfaya gider
-      When arama kutusuna shoes yazip aratir
-      Then arama sonucunda urun bulunabildigini test eder
-      And sayfayi kapatir
+  @wip
+  Scenario: TC02 Kullanici test otomasyonu sayfasinda shoes aratabilmeli
+    Given kullanici testotomasyonu anasayfaya gider
+    When arama kutusuna shoes yazip aratir
+    Then arama sonucunda urun bulunabildigini test eder
+    And sayfayi kapatir
 
-      @smoke
-  Scenario: TC03 Kullanici testotomasyonu sayfasinda dress aratabilmeli
+  @wip
+  Scenario: TC03 Kullanici test otomasyonu sayfasinda dress aratabilmeli
     Given kullanici testotomasyonu anasayfaya gider
     When arama kutusuna dress yazip aratir
     Then arama sonucunda urun bulunabildigini test eder
