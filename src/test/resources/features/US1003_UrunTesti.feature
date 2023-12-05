@@ -12,8 +12,8 @@ Feature: US1003 Kullanici aradigi urunu bulabilmeli
 
   Scenario: TC08 Men dress arama testi
     Given kullanici testotomasyonu anasayfaya gider
-    When arama kutusuna "Men dress" yazip aratir
+    When arama kutusuna "men dress" yazip aratir
     Then ilk urune click yapar
-    And urun isminin "Men" icerdigini test eder
+    And urun isminin "men" icerdigini test eder
     Then 5 saniye bekler
     And sayfayi kapatir
