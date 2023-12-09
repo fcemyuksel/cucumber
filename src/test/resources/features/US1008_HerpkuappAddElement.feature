@@ -1,5 +1,5 @@
-Feature: US1008Kullanici element forununceye kadar bekler
-  @wip
+Feature: US1008Kullanici element gorununceye kadar bekler
+
   Scenario: TC15 Kullanici elementler gorunur oluncaya kadar bekleyebilmeli
 
     Given kullanici "heroUrl" anasayfasina gider
