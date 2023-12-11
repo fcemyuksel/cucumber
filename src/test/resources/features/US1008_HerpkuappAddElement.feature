@@ -1,5 +1,5 @@
 Feature: US1008Kullanici element gorununceye kadar bekler
-
+  @P2
   Scenario: TC15 Kullanici elementler gorunur oluncaya kadar bekleyebilmeli
 
     Given kullanici "heroUrl" anasayfasina gider

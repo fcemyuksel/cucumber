@@ -1,7 +1,7 @@
 
 Feature: US1003 Kullanici aradigi urunu bulabilmeli
 
-  @smoke
+
   Scenario: TC07 shoes arama testi
     Given kullanici testotomasyonu anasayfaya gider
     When arama kutusuna shoes yazip aratir
@@ -9,7 +9,7 @@ Feature: US1003 Kullanici aradigi urunu bulabilmeli
     And urun isminin shoes icerdigini test eder
     And sayfayi kapatir
 
-
+  @P1
   Scenario: TC08 Men dress arama testi
     Given kullanici testotomasyonu anasayfaya gider
     When arama kutusuna "men dress" yazip aratir

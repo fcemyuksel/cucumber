@@ -12,8 +12,28 @@ import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
+import java.util.Set;
 
 public class ReusableMethods {
+
+    public static void windowDegistir(String hedefSayfaTitle){
+        Set<String > tumSayfalarWhdSeti=Driver.getDriver().getWindowHandles();
+        // set'deki herbir window handle degerini alalim
+        //o sayfaya gecis yapalim
+        //eger gectigimiz sayfadaki title, hedef title ile ayni ise loop'u bitirelim
+
+        for (String each: tumSayfalarWhdSeti
+             ) {
+            Driver.getDriver().switchTo().window(each);
+
+            if (Driver.getDriver().getTitle().equals(hedefSayfaTitle)){
+                break;
+            }
+
+        }
+    }
+
+
     public static void bekle(int saniye){
         try {
             Thread.sleep(saniye*1000);
