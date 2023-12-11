@@ -1,4 +1,4 @@
-
+@smoke
 Feature: US1010 Verilen fakli gecersiz kullanici bilgileri ile giris yapilamaz
 
   Scenario Outline: TC16 Kullanici gecersiz kullanici adi ve gecerli password ile giris yapamamali
